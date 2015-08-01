@@ -26,7 +26,7 @@ from astroML.datasets import fetch_imaging_sample
 # result in an error if LaTeX is not installed on your system.  In that case,
 # you can set usetex to False.
 from astroML.plotting import setup_text_plots
-setup_text_plots(fontsize=8, usetex=True)
+setup_text_plots(fontsize=8, usetex=False)
 
 
 def get_stars_and_galaxies(Nstars=5000, Ngals=5000):
